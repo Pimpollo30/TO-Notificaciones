@@ -1,0 +1,17 @@
+<meta>
+	<info author="Abraham Raymundo" name="Sistema de Notificaciones de Theft Operation" type="script" version="1.1" />
+	<script src="client.lua" type="client" cache="false"/>
+	<script src="server.lua" type="server" />
+	<script src="dx_utils_c.lua" type="client" cache="false"/>
+	<script src="trashJoin_c.lua" type="client" cache="false"/>
+	<script src="trashDo_c.lua" type="client" cache="false"/>
+
+	<export function="sendMessage" type="client" /> 
+	<export function="utilmsg" type="client" /> 
+	<export function="trashLast" type="client" /> 
+	<export function="trashDo" type="client" /> 
+	<export function="sendMessage" type="server" />
+	<export function="utilmsg" type="server" />
+	<export function="trashLast" type="server" />
+	<export function="trashDo" type="server" />
+</meta>
